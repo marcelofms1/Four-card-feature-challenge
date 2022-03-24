@@ -93,7 +93,7 @@ p{
     #supervisor{
         position:absolute;
         top:25%;
-        left:190px;
+        left:200px;
     }
     #supervisor{
         border-left: 4px solid hsl(180, 62%, 55%);
@@ -130,7 +130,6 @@ p{
         border-bottom: 4px solid hsl(34, 97%, 64%);
         border-top:none;
     }
-
 
 }
 
