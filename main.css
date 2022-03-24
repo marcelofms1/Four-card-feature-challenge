@@ -29,10 +29,10 @@ p{
     font-size:12px;
     margin:0% auto;
     margin-bottom:2em;
-    box-shadow: 5px 13px 20px hsl(216, 34%, 74%);
     height:30vh;
     border-top-color: 2px hsl(180, 62%, 55%);
     position:relative;
+    border:2px solid lightgray;
 }
 
 .container img{
@@ -79,6 +79,10 @@ p{
     .container{
         width:20%;
         height:24vh;
+        transition:200ms ease-in-out
+    }
+    .container:hover{
+        box-shadow: 5px 13px 20px hsl(216, 34%, 74%);
     }
 
     .container img{
@@ -91,14 +95,41 @@ p{
         top:25%;
         left:200px;
     }
+    #supervisor{
+        border-left: 4px solid hsl(180, 62%, 55%);
+        border-top:none;
+    }
+    #supervisor:hover{
+        border:2px solid hsl(180, 62%, 55%);
+    }
 
     #calculator{
         position:absolute;
         top:25%;
-        right:200px; 
-        
+        right:190px; 
+    }
+    #calculator:hover{
+        border:2px solid hsl(212, 86%, 64%);
+    }
+    #calculator{
+        border-right: 4px solid hsl(212, 86%, 64%);
+        border-top:none;
     }
 
+    #team_builder:hover{
+        border:2px solid hsl(0, 78%, 62%);
+    }
+    #team_builder{
+        border-top: 4px solid hsl(0, 78%, 62%);
+    }
+
+    #karma:hover{
+        border:2px solid hsl(34, 97%, 64%);
+    }
+    #karma{
+        border-bottom: 4px solid hsl(34, 97%, 64%);
+        border-top:none;
+    }
 
 }
 
